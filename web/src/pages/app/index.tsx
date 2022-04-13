@@ -19,7 +19,7 @@ function Home({ data }) {
   const { data: me } = useMe();
 
   return (
-    <div>
+    <div className="text-indigo-600">
       <h1>Hello world</h1>
 
       <pre>{JSON.stringify(me, null, 2)}</pre>
