@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
     <UserProvider>
       <Component {...pageProps} />
     </UserProvider>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;
